@@ -12,10 +12,9 @@ export default defineConfig({
   lastUpdated: true,
   
   themeConfig: {
-    // Edit link to GitHub
     editLink: {
-      pattern: 'https://github.com/SeaWalks/mecha-guide/edit/main/docs/:path',
-      text: 'Edit this page on GitHub'
+      pattern: 'https://github.com/SeaWalks/MechaCosplayTutorial',
+      text: 'Make a suggestion on GitHub'
     },
     nav: [
       { text: 'Home', link: '/' },
@@ -27,36 +26,50 @@ export default defineConfig({
         {
           text: 'Getting Started',
           items: [
-            { text: 'Introduction', link: '/tutorials/' },
-            { text: 'Tools & Materials', link: '/tutorials/tools-materials' }
+            { text: 'Introduction', link: '/tutorials/get-started/intro.md' },
+            { text: 'Tools', link: '/tutorials/get-started/tools.md' },
+            { text: 'Materials', link: '/tutorials/get-started/materials.md'}
           ]
         },
         {
           text: 'Planning',
           items: [
-            { text: 'Proportions', link: '/tutorials/weapon-crafting' },
-            { text: 'Patterning', link: '/tutorials/armor-building' },
-          
+            { text: 'Proportions', link: '/tutorials/planning/proportions.md' },
+            { text: 'Patterning', link: '/tutorials/planning/patterning.md' },
           ]
         },
         {
-          text: 'Construction',
+          text: 'Building',
           items: [
-            { text: 'Armor Building', link: '/tutorials/armor-building' },
-            { text: 'Weapon Crafting', link: '/tutorials/weapon-crafting' }
-          ]
-        },
-        {
-          text: 'Painting',
-          items: [
-            { text: 'Painting Basics', link: '/tutorials/painting-basics' },
-            { text: 'Airbrushing Techniques', link: '/tutorials/airbrushing-techniques' }
+            { text: 'EVA Foam Basics', link: '/tutorials/building/eva-foam-basics.md' },
+            { text: 'Armor Building', link: '/tutorials/building/armor-building.md' },
+            { text: 'Weapon Crafting', link: '/tutorials/building/weapon-crafting.md' }
           ]
         },
         {
           text: 'Strapping',
           items: [
-            { text: 'Strapping Basics', link: '/tutorials/strapping-basics' }
+            { text: 'Strapping Overview', link: '/tutorials/strapping/strapping-basics.md' },
+            { text: 'Torso', link: '/tutorials/strapping/torsos.md' },
+            { text: 'Backpack', link: '/tutorials/strapping/backpack.md' },
+            { text: 'Skirt Armor', link: '/tutorials/strapping/legs.md' },
+            { text: 'Legs', link: '/tutorials/strapping/arms.md' },
+          ]
+        },
+        {
+          text: 'Painting',
+          items: [
+            { text: 'Painting Basics', link: '/tutorials/painting/painting-basics.md' },
+            { text: 'Advanced Techniques', link: '/tutorials/painting/airbrushing-techniques.md' }
+          ]
+        },
+        {
+          // TODO: Fill out the links
+          text: 'At the Con',
+          items: [
+            { text: 'Ettiquette', link: '/tutorials/strapping/strapping-basics.md' },
+            { text: 'Self Care', link: '/tutorials/strapping/torsos.md' },
+            { text: 'Repairs', link: '/tutorials/strapping/backpack.md' },
           ]
         }
       ]
