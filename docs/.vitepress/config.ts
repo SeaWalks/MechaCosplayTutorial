@@ -27,8 +27,8 @@ export default defineConfig({
           text: 'Getting Started',
           items: [
             { text: 'Introduction', link: '/tutorials/get-started/intro.md' },
+            { text: 'Materials', link: '/tutorials/get-started/materials.md' },
             { text: 'Tools', link: '/tutorials/get-started/tools.md' },
-            { text: 'Materials', link: '/tutorials/get-started/materials.md'}
           ]
         },
         {
@@ -42,25 +42,19 @@ export default defineConfig({
           text: 'Building',
           items: [
             { text: 'EVA Foam Basics', link: '/tutorials/building/eva-foam-basics.md' },
-            { text: 'Armor Building', link: '/tutorials/building/armor-building.md' },
-            { text: 'Weapon Crafting', link: '/tutorials/building/weapon-crafting.md' }
           ]
         },
         {
           text: 'Strapping',
           items: [
-            { text: 'Strapping Overview', link: '/tutorials/strapping/strapping-basics.md' },
-            { text: 'Torso', link: '/tutorials/strapping/torsos.md' },
+            { text: 'Strapping Overview', link: '/tutorials/strapping/strapping-basics.md' },        
             { text: 'Backpack', link: '/tutorials/strapping/backpack.md' },
-            { text: 'Skirt Armor', link: '/tutorials/strapping/legs.md' },
-            { text: 'Legs', link: '/tutorials/strapping/arms.md' },
           ]
         },
         {
           text: 'Painting',
           items: [
             { text: 'Painting Basics', link: '/tutorials/painting/painting-basics.md' },
-            { text: 'Advanced Techniques', link: '/tutorials/painting/airbrushing-techniques.md' }
           ]
         },
         {

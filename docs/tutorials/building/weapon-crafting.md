@@ -1,4 +1,0 @@
-# Weapon Crafting
-
-Coming soon...
-

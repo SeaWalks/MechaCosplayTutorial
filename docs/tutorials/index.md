@@ -4,15 +4,12 @@ Welcome to the Mecha Cosplay Tutorials section! Here you'll find comprehensive g
 
 ## Getting Started
 
-- [Introduction](/tutorials/) - Overview of mecha cosplay
-- [Tools & Materials](/tutorials/tools-materials) - Essential tools and materials you'll need
+- [Introduction](/tutorials/get-started/intro.md) - Overview of mecha cosplay
+- [Tools](/tutorials/get-started/tools.md) - Tools of the trade
+- [Materials](/tutorials/get-started/materials.md) - List of materials I use
 
 ## Construction Guides
 
-- [Armor Building](/tutorials/armor-building) - Step-by-step armor construction
-- [Weapon Crafting](/tutorials/weapon-crafting) - Creating mecha weapons and props
-
----
 
 *More tutorials coming soon!*
     

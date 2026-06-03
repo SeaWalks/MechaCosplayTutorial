@@ -1,4 +1,0 @@
-# Armor Building
-
-Coming soon...
-

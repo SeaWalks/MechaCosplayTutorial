@@ -1,4 +1,0 @@
-# Advanced Techniques
-
-Coming soon...
-
